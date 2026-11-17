@@ -36,7 +36,7 @@ jobs:
 
       - name: Unpack source project
         run: |
-          unzip -q OfflineNavigatorPH-source.zip -d source
+          unzip -q OfflineNavigatorPH-source-corrected.zip -d source
           test -f source/OfflineNavigatorPH/settings.gradle.kts
 
       - name: Build debug APK
